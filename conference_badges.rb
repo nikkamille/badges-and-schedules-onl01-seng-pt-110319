@@ -17,8 +17,10 @@ def assign_rooms(room)
 #  room_numbers
 end
 
-def printer
-  puts batch_badge_creator
+def printer(name)
+  batch_badge_creator(name).each do |a|
+    puts a 
+  end 
 end
     
   
