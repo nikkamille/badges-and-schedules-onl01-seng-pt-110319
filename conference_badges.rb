@@ -4,7 +4,8 @@ end
 
 def batch_badge_creator(name)
   name.collect do |attendees|
-    "Hello, my name is #{attendees}."
+   # "Hello, my name is #{attendees}."
+   badge_maker(attendees)
   end
 end
 
