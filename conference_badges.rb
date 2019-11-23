@@ -17,7 +17,7 @@ def assign_rooms(room)
 #  room_numbers
 end
 
-def printer(name) # names = 
+def printer(name) # names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
   batch_badge_creator(name).each do |a|
     puts a 
   end 
